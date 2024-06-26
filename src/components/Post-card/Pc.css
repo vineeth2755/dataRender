@@ -1,0 +1,33 @@
+.post-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.2s;
+  }
+  
+  .post-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .post-card h2 {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .post-card a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .post-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .post-card p {
+    margin: 0 0 10px;
+  }
+  
